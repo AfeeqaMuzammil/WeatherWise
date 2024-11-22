@@ -30,29 +30,11 @@ WeatherWise is a modern weather application that provides real-time weather upda
    npm install
    REACT_APP_WEATHER_API_KEY=YOUR_API_KEY
    npm start
+   
 View the app: Open http://localhost:3000 in your browser.
 
 ---
 
-WeatherWise/
-│
-├── public/
-│   ├── index.html        # HTML template
-│   └── favicon.ico       # App icon
-│
-├── src/
-│   ├── assets/           # Images and static assets
-│   ├── components/       # Reusable components (Header, SearchBar, WeatherCard, ForecastCard)
-│   ├── App.js            # Main app component
-│   ├── App.css           # Global styles
-│   └── index.js          # Entry point
-│
-├── .gitignore            # Ignored files and directories
-├── package.json          # Project dependencies and scripts
-├── README.md             # Project documentation
-└── .env                  # API keys (not included in Git)
-
----
 
 ## API Integration 🌐
 This app uses the OpenWeatherMap API to fetch weather data. To use the app, you need an API key:
