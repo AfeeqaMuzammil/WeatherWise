@@ -1,74 +1,85 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# WeatherWise 🌦️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeatherWise is a modern weather application that provides real-time weather updates and 5-hourly forecasts. Built with React and styled with modern UI techniques, this app is designed to deliver an engaging and informative user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features 🚀
+- **Current Weather Data:** Displays temperature, humidity, wind speed, and weather conditions.
+- **5-Hourly Forecast:** Detailed forecast with temperature, condition icons, and descriptions.
+- **Dynamic Backgrounds:** Background changes based on current weather conditions (e.g., sunny, rainy, cloudy).
+- **User-Friendly Interface:** Clean, responsive, and visually appealing design.
+- **Weather Tips:** Contextual messages like "Grab an umbrella" based on weather conditions.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack 🛠️
+- **Frontend Framework:** React.js
+- **Styling:** CSS3 with gradients and modern design principles
+- **API:** OpenWeatherMap API
+- **Icons:** Dynamic weather icons from OpenWeatherMap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Installation and Setup ⚙️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AfeeqaMuzammil/WeatherWise.git
+   cd WeatherWise
+   npm install
+   REACT_APP_WEATHER_API_KEY=YOUR_API_KEY
+   npm start
+View the app: Open http://localhost:3000 in your browser.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+WeatherWise/
+│
+├── public/
+│   ├── index.html        # HTML template
+│   └── favicon.ico       # App icon
+│
+├── src/
+│   ├── assets/           # Images and static assets
+│   ├── components/       # Reusable components (Header, SearchBar, WeatherCard, ForecastCard)
+│   ├── App.js            # Main app component
+│   ├── App.css           # Global styles
+│   └── index.js          # Entry point
+│
+├── .gitignore            # Ignored files and directories
+├── package.json          # Project dependencies and scripts
+├── README.md             # Project documentation
+└── .env                  # API keys (not included in Git)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Integration 🌐
+This app uses the OpenWeatherMap API to fetch weather data. To use the app, you need an API key:
 
-### `npm run eject`
+Create a free account at OpenWeatherMap.
+Get your API key.
+Add the API key to your .env file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing 🤝
+Contributions are welcome! To contribute:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -m "Add feature").
+Push to the branch (git push origin feature-name).
+Open a pull request.
+License 📜
+This project is licensed under the MIT License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Acknowledgements 🙏
+OpenWeatherMap for the API and weather icons.
+React community for their amazing resources and documentation.
+Design inspiration from modern weather applications.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# WeatherWise
->>>>>>> b55ae76fd96f70d3730b47d6b14bb9dceab71d41
+## Author ✨
+- **Afeeqa Hana**
